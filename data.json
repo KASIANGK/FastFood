@@ -1,0 +1,262 @@
+[
+  {
+  "restaurant": "McDonald",
+  "menus": [
+    {
+      "name": "Big Mac® McMenu ®",
+      "price": 11.40,
+      "id": 1,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    },
+    {
+      "name": "Royal Deluxe Beef McMenu®",
+      "price": 9.43,
+      "id": 2,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    },
+    {
+      "name": "McChicken® McMenu®",
+      "price": 11.40,
+      "id": 3,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    },
+    {
+      "name": "McCrispy McMenu®",
+      "price": 14.25,
+      "id": 4,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    },
+    {
+      "name": "Big Mac® McMenu®",
+      "price": 11.4,
+      "id": 5,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    },
+    {
+      "name": "Royal Cheese McMenu®",
+      "price": 11.4,
+      "id": 6,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    },
+    {
+      "name": "Royal-O-Fich McMenu®",
+      "price": 11.4,
+      "id": 7,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    },
+    {
+      "name": "Double Cheese McMenu®",
+      "price": 6.4,
+      "id": 8,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    },
+    {
+      "name": "McVeggie McMenu®",
+      "price": 11.4,
+      "id": 9,
+      "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
+      "chips": true
+    }
+  ],
+  "burgers": [
+    {
+      "name": "Big Mac®",
+      "price": 6.45,
+      "id": 1,
+      "ingredients": 
+      ["2 viandes 100% boeuf", 
+      "fromage Cheddar", 
+      "oignons", 
+      "cornichons", 
+      "salade", 
+      "sauce Big Mac"]
+    },
+    {
+      "name": "Maestro Peppery Paul",
+      "price": 9.30,
+      "id": 2,
+      "ingredients": 
+      ["2 viandes 100% pur boeuf", 
+      "fromage Cheddar", 
+      "oignons rouges", 
+      "tranches de bacon", 
+      "salade batavia", 
+      "sauce poivre"]
+    },
+    {
+      "name": "Royal Cheese",
+      "price": 6.55,
+      "id": 3,
+      "ingredients": 
+      ["1 viande 100% boeuf", 
+      "2 tranches de fromage Cheddar", 
+      "oignons", 
+      "cornichons", 
+      "sauce moutarde", 
+      "sauce ketchup"]
+    },
+    {
+      "name": "Maestro Generous Jack",
+      "price": 9.3,
+      "id": 4,
+      "ingredients": 
+      ["1 viande 100% boeuf", 
+      "fromage Maredsous", 
+      "tranches de bacon",
+      "oignons rouges", 
+      "tomates", 
+      "sauce mayo-citron"]
+    },
+    {
+      "name": "Royal Crispy Bacon",
+      "price": 6.5,
+      "id": 5,
+      "ingredients": 
+      ["1 viande 100% boeuf", 
+      "fromage Cheddar", 
+      "tranches de bacon",
+      "bacon craquant", 
+      "sauce bacon"]
+    },
+    {
+      "name": "Royal-O-Fish",
+      "price": 6.5,
+      "id": 6,
+      "ingredients": 
+      ["1 viande 100% boeuf", 
+      "fromage Maredsous", 
+      "tranches de bacon",
+      "oignons rouges", 
+      "tomates", 
+      "sauce mayo-citron"]
+    },
+    {
+      "name": "Mc Veggie",
+      "price": 6.45,
+      "id": 7,
+      "ingredients": 
+      ["Filet veggie pané", 
+      "salade Iceberg", 
+      "sauce légèrement citronnée"]
+    },
+    {
+      "name": "Double Cheese",
+      "price": 6.4,
+      "id": 8,
+      "ingredients": 
+      ["2 viandes 100% boeuf", 
+      "2 tranches de Cheddar", 
+      "cornichons",
+      "oignons", 
+      "sauce moutarde", 
+      "sauce ketchup"]
+    },
+    {
+      "name": "McChicken",
+      "price": 6.45,
+      "id": 9,
+      "ingredients": 
+      ["Poulet pané", 
+      "salade croquante", 
+      "sauce légèrement citronnée"
+    ]
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Macarons",
+      "price": 4.45,
+      "id": 1,
+      "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+    },
+    {
+      "name": "Oreo Donuts",
+      "price": 4.30,
+      "id": 2,
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Actimel",
+      "price": 2.4,
+      "id": 3,
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Carottes",
+      "price": 0.75,
+      "id": 4,
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "McFlurry",
+      "price": 6.5,
+      "id": 5,
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Milkshake",
+      "price": 6.5,
+      "id": 6,
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Pommes",
+      "price": 6.45,
+      "id": 7,
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Tomates Cerises",
+      "price": 6.4,
+      "id": 8,
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "Brownie",
+      "price": 6.45,
+      "id": 9,
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    }
+  ]
+}
+]
