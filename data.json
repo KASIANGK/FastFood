@@ -77,7 +77,8 @@
       "oignons", 
       "cornichons", 
       "salade", 
-      "sauce Big Mac"]
+      "sauce Big Mac"],
+      "img": "/img/BigMac.png"
     },
     {
       "name": "Maestro Peppery Paul",
@@ -89,7 +90,8 @@
       "oignons rouges", 
       "tranches de bacon", 
       "salade batavia", 
-      "sauce poivre"]
+      "sauce poivre"],
+      "img": "/img/Maestro-Peppery-Paul.png"
     },
     {
       "name": "Royal Cheese",
@@ -101,7 +103,8 @@
       "oignons", 
       "cornichons", 
       "sauce moutarde", 
-      "sauce ketchup"]
+      "sauce ketchup"],
+      "img": "/img/RoyalCheese.png"
     },
     {
       "name": "Maestro Generous Jack",
@@ -113,7 +116,8 @@
       "tranches de bacon",
       "oignons rouges", 
       "tomates", 
-      "sauce mayo-citron"]
+      "sauce mayo-citron"],
+      "img": "/img/Hero_GenerousJack.png"
     },
     {
       "name": "Royal Crispy Bacon",
@@ -124,7 +128,8 @@
       "fromage Cheddar", 
       "tranches de bacon",
       "bacon craquant", 
-      "sauce bacon"]
+      "sauce bacon"],
+      "img": "/img/Crispy-Bacon.jpg"
     },
     {
       "name": "Royal-O-Fish",
@@ -136,7 +141,8 @@
       "tranches de bacon",
       "oignons rouges", 
       "tomates", 
-      "sauce mayo-citron"]
+      "sauce mayo-citron"],
+      "img": "/img/Royal-O-Fish.jpeg"
     },
     {
       "name": "Mc Veggie",
@@ -145,7 +151,8 @@
       "ingredients": 
       ["Filet veggie pané", 
       "salade Iceberg", 
-      "sauce légèrement citronnée"]
+      "sauce légèrement citronnée"],
+      "img": "/img/Veggie-De-Luxe.jpeg"
     },
     {
       "name": "Double Cheese",
@@ -157,7 +164,8 @@
       "cornichons",
       "oignons", 
       "sauce moutarde", 
-      "sauce ketchup"]
+      "sauce ketchup"],
+      "img": "/img/doublecheese.png"
     },
     {
       "name": "McChicken",
@@ -167,7 +175,8 @@
       ["Poulet pané", 
       "salade croquante", 
       "sauce légèrement citronnée"
-    ]
+      ],
+      "img": "/img/McChicken.png"
     }
   ],
   "desserts": [

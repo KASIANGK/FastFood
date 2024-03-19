@@ -4,7 +4,13 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 
 
 import MainPage from './Components/MainPage/MainPage'
-import Products from './Components/Products/Products'
+import Burgers from './Components/Burgers/Burgers'
+import Burger from './Components/Burger/Burger'
+import Menus from './Components/Menus/Menus'
+import Menu from './Components/Menu/Menu'
+import Desserts from './Components/Desserts/Desserts'
+import Dessert from './Components/Dessert/Dessert'
+import Login from './Components/LogIn/LogIn'
 
 
 const routeur = createBrowserRouter([
@@ -13,8 +19,32 @@ const routeur = createBrowserRouter([
     element: <MainPage></MainPage>
   },
   {
-    path: '/products',
-    element: <Products></Products>
+    path: '/burgers',
+    element: <Burgers></Burgers>
+  },
+  {
+    path: '/burgers/:id',
+    element: <Burger></Burger>
+  },
+  {
+    path: '/menus',
+    element: <Menus></Menus>
+  },
+  {
+    path: '/menus/:id',
+    element: <Menu></Menu>
+  },
+  {
+    path: '/desserts',
+    element: <Desserts></Desserts>
+  },
+  {
+    path: '/desserts/:id',
+    element: <Dessert></Dessert>
+  },
+  {
+    path: '/login',
+    element: <Login></Login>
   }
 ])
 
