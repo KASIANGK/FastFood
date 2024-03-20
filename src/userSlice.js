@@ -4,15 +4,17 @@ export const userSlice = createSlice({
   name: 'user',
   initialState: {
     users: [],
-    loggedInUser: null,
-    password: '',
+    loggedInUser: false,
+    user: 'username',
+    password: 'password',
   },
   reducers: {
     loginUser: (state, action) => {
-      const { username, password } = action.payload
-      const user = state.users.find(user => user.username === username && user.password === password)
-      if (user) {
-        state.loggedInUser = user
+      console.log(action.payload);
+
+      if (state.user == action.payload.username && state.password == action.payload.password) {
+        state.loggedInUser = true
+        console.log(state.loggedInUser);
       }
     },
     logoutUser: (state) => {

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { loginUser } from "../../userSlice";
 import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
-import { useSelector } from "react-redux";
+
 
 function LogIn() {
 
@@ -11,10 +11,9 @@ function LogIn() {
     const [username, setUsername] = useState('username')
     const [password, setPassword] = useState('password')
     const [isLogged, setIsLogged] = useState(false)
-    // const loggedInUser = useSelector(state => state.user.loggedInUser)
 
     function handleSubmit(e) {
-        // empecher rechargement de la page qd le formulaire est submit (qd connexion erronee)
+        // empecher rechargement de la page qd le formulaire est submit (et qd connexion erronee)
         e.preventDefault()
 
         if (username === 'username' && password === 'password') {
