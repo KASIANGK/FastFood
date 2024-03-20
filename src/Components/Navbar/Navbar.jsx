@@ -19,34 +19,40 @@ function Navbar() {
   },[])
 
   return (
-    <div className="navbar">
-      <div className="logo-container">
+    <div className="navbar-container">
+      <div className="navbar">
+        <div className="logo-container">
+        </div>
+        <div className="navbar-content">
+          <ul className="nav-links">
+            <li className={location.pathname === '/' ? 'active' : ''}>
+              <Link to="/">HOME</Link>
+            </li>
+            <li className={location.pathname === '/manga' ? 'active' : ''}>
+              <Link to="/menus">MENUS</Link>
+            </li>
+            <li className={location.pathname === '/burgers' ? 'active' : ''}>
+              <Link to="/burgers">BURGERS</Link>
+            </li>
+            <li className={location.pathname === '/desserts' ? 'active' : ''}>
+              <Link to="/desserts">DESSERTS</Link>
+            </li>
+            <li className={location.pathname === '/login' ? 'active' : ''}>
+              {loggedInUser ? (
+                <>
+                  <span>Welcome</span>
+                  <Link to="/"><button onClick={handleLogout}>LOG OUT</button></Link>
+                </>
+              ) : (
+                <Link to="/login">LOG IN</Link>
+              )}
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul className="nav-links">
-        <li className={location.pathname === '/' ? 'active' : ''}>
-          <Link to="/">HOME</Link>
-        </li>
-        <li className={location.pathname === '/manga' ? 'active' : ''}>
-          <Link to="/menus">MENUS</Link>
-        </li>
-        <li className={location.pathname === '/burgers' ? 'active' : ''}>
-          <Link to="/burgers">BURGERS</Link>
-        </li>
-        <li className={location.pathname === '/desserts' ? 'active' : ''}>
-          <Link to="/desserts">DESSERTS</Link>
-        </li>
-        <li className={location.pathname === '/login' ? 'active' : ''}>
-          {loggedInUser ? (
-            <>
-              <span>Welcome</span>
-              <Link to="/"><button onClick={handleLogout}>LOG OUT</button></Link>
-            </>
-          ) : (
-            <Link to="/login">LOG IN</Link>
-          )}
-        </li>
-        {loggedInUser ? <Basket /> : null} 
-      </ul>
+      <div className="navbar-basket">
+        {loggedInUser === true ? <Basket></Basket> : null}
+      </div>
     </div>
   )
 }

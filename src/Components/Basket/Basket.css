@@ -1,11 +1,14 @@
-/* styles.css */
-.panier {
+.basket {
     position: absolute;
     top: 0;
     right: 0;
     width: 20px;
     height: 40px;
     background-color: red;
-    /* Autres styles CSS selon vos besoins */
-  }
-  
+}
+
+
+.modal-container h2 {
+  color: #000;
+}
+
