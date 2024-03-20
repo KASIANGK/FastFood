@@ -1,0 +1,11 @@
+/* styles.css */
+.panier {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 40px;
+    background-color: red;
+    /* Autres styles CSS selon vos besoins */
+  }
+  

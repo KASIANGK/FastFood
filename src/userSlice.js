@@ -3,7 +3,8 @@ import { createSlice } from '@reduxjs/toolkit';
 export const userSlice = createSlice({
   name: 'user',
   initialState: {
-    loggedIn: null,
+    users: [],
+    loggedInUser: null,
     password: '',
   },
   reducers: {
@@ -11,8 +12,11 @@ export const userSlice = createSlice({
       const { username, password } = action.payload
       const user = state.users.find(user => user.username === username && user.password === password)
       if (user) {
-        state.loggedIn = user
+        state.loggedInUser = user
       }
+    },
+    logoutUser: (state) => {
+      state.loggedInUser = null
     },
     setPassword: (state, action) => {
       state.password = action.payload
@@ -20,6 +24,6 @@ export const userSlice = createSlice({
   },
 })
 
-export const { loginUser, setPassword } = userSlice.actions
+export const { loggedInUser, logoutUser, loginUser, setPassword } = userSlice.actions
 
 export default userSlice.reducer
