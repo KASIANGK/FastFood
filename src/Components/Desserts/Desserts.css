@@ -1,0 +1,37 @@
+.burgers {
+    width: 100%;
+}
+.burgers-content {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+.burgers-content div {
+    width: 200px;
+    margin-bottom: 5%;
+}
+.burgers-contenu img {
+    width: 200px;
+}
+.burgers-contenu p {
+    font-weight: 700;
+}
+.burger-all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: 10% 300%;
+    background-attachment: fixed;
+}
+.burger-all h2 {
+    color: black;
+}

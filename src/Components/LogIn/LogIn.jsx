@@ -27,7 +27,7 @@ function LogIn() {
     }
 
     return (
-        <div>
+        <div className="login">
             <div>
                 <Navbar></Navbar>
             </div>

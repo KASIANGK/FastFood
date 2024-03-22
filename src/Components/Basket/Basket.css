@@ -4,7 +4,8 @@
     right: 0;
     width: 20px;
     height: 40px;
-    background-color: red;
+    background-color: none;
+
 }
 
 
@@ -12,3 +13,7 @@
   color: #000;
 }
 
+.parent-container {
+  width: 100%;
+  display: flex;
+}

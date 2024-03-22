@@ -4,6 +4,7 @@ import './Navbar.css';
 import Basket from "../Basket/Basket";
 import { logoutUser } from "../../userSlice";
 import { useEffect } from "react";
+import logo from '../../../public/design/logo.png'
 
 function Navbar() {
   const location = useLocation();
@@ -22,6 +23,7 @@ function Navbar() {
     <div className="navbar-container">
       <div className="navbar">
         <div className="logo-container">
+          <img src={logo} className="logo"/>
         </div>
         <div className="navbar-content">
           <ul className="nav-links">

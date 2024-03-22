@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../basketSlice" 
+import BLACKY from '../../../public/design/b.jpg'
+import './Burgers.css'
 
 function Burgers() {
 
@@ -15,16 +17,17 @@ function Burgers() {
     }
 
     return (
-        <div>
+        <div className="burgers">
             <Navbar />
-            <div>
+            <div className="burger-all"
+            style={{ backgroundImage: `url(${BLACKY})` }}>
+                <h2>OUR SELECTION</h2>
                 {data.map((element, i) => (
-                    <div key={i}>
-                        <h2>{element.restaurant}</h2>
+                    <div key={i} className="burgers-content">
                         {element.burgers.map((burger, b) => (
-                            <div key={b}>
-                                <p>{burger.name}</p>
+                            <div key={b} className="burgers-contenu">
                                 <img src={burger.img} alt={burger.name} />
+                                <p>{burger.name}</p>
                                 {loggedInUser === true ?
                                     <p>{burger.price}</p>
                                     : null}

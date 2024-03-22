@@ -1,0 +1,77 @@
+.bg-all-products {
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* width: 150px; */
+    /* height: 2000px; */
+    transition: filter 0.5s ease; 
+    margin-bottom: 10%;
+    width: 100%;
+    background-color: rgb(255, 185, 45);
+    gap: 5%;
+    flex-direction: column;
+    background-size: cover;
+    height: fit-content;
+    padding-bottom: 5%;
+    margin-top: -5%;
+}
+.all-products {
+    display: flex;
+    /* flex-direction: column; */
+    /* width: 150px; */
+    height: fit-content;
+    transition: filter 0.5s ease; 
+    margin-bottom: 10%;
+    /* width: 100%;
+    background-color: rgb(255, 185, 45); */
+    gap: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card {
+    /* width: 700px; */
+    width: 400px;
+    margin-bottom: 5%;
+}
+.card-txt {
+    padding-top: 5%;
+}
+
+.mainpage {
+    /* background-color: rgb(255, 217, 0); */
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img {
+    
+    height: 350px; 
+    object-fit: cover; 
+  }
+.search {
+    padding: 7%;
+    background-position: center;
+    background-size: 60%;
+    display: flex;
+    justify-content: end;
+    margin-right: 3%;
+
+}
+.card-title h4 {
+    color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}

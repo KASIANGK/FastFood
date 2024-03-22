@@ -1,89 +1,10 @@
-// import { useState, useEffect } from 'react';
-// import './Carousel.css';
-// import data from '../../../data.json';
-
-// function Carousel() {
-//   const [currentIndex, setCurrentIndex] = useState(0)
-//   const [menus, setMenus] = useState([])
-//   const [burgers, setBurgers] = useState([])
-//   const [desserts, setDesserts] = useState([])
-
-//   useEffect(() => {
-//  //division donnees (3 donnees differentes - menus, biurgers, desserts)
-//     const menusData = data.map(item => item.menus[0])
-//     const burgersData = data.map(item => item.burgers[0])
-//     const dessertsData = data.map(item => item.desserts[0])
-    
-//     setMenus(menusData)
-//     setBurgers(burgersData)
-//     setDesserts(dessertsData)
-//   }, [])
-
-// // creation variable - le total de slides (3 slides - menus, burgers, desserts)
-//   const totalSlides = 3
-
-//  // fonction pour page suivante
-//   const nextSlide = () => {
-//     setCurrentIndex((currentIndex + 1) % totalSlides)
-//   }
-
-//  // fonction pour page precedente
-//   const prevSlide = () => {
-//     setCurrentIndex((currentIndex - 1 + totalSlides) % totalSlides)
-//   }
-
-//   return (
-//     <div className="carousel-container">
-//       <div className="carousel">
-//         {currentIndex === 0 && (
-//           <div className="carousel-item">
-//             {menus.map((menu, index) => (
-//               <div key={index}>
-//                 <h2>{menu.name}</h2>
-//                 <p>{menu.price}</p>
-//                 {/* Ajoutez d'autres informations du menu si nécessaire */}
-//               </div>
-//             ))}
-//           </div>
-//         )}
-//         {currentIndex === 1 && (
-//           <div className="carousel-item">
-//             {burgers.map((burger, index) => (
-//               <div key={index}>
-//                 <h2>{burger.name}</h2>
-//                 <p>{burger.price}</p>
-//                 {/* Ajoutez d'autres informations du burger si nécessaire */}
-//               </div>
-//             ))}
-//           </div>
-//         )}
-//         {currentIndex === 2 && (
-//           <div className="carousel-item">
-//             {desserts.map((dessert, index) => (
-//               <div key={index}>
-//                 <h2>{dessert.name}</h2>
-//                 <p>{dessert.price}</p>
-//                 {/* Ajoutez d'autres informations du dessert si nécessaire */}
-//               </div>
-//             ))}
-//           </div>
-//         )}
-//       </div>
-//       <button className="prev" onClick={prevSlide}>Previous</button>
-//       <button className="next" onClick={nextSlide}>Next</button>
-//     </div>
-//   )
-// }
-
-// export default Carousel
-
-
-
-
 // carousel random 
 import React, { useState, useEffect } from 'react';
 import './Carousel.css';
 import data from '../../../data.json';
+import bgOne from '../../../public/design/18.png'
+import bag from '../../../public/design/18.png'
+import third from '../../../public/design/bagmc.png'
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -93,6 +14,7 @@ function Carousel() {
   const [menus, setMenus] = useState([])
   const [burgers, setBurgers] = useState([])
   const [desserts, setDesserts] = useState([])
+  
 
   useEffect(() => {
     // division donnees pour les differentes categories (menus, burgers, desserts)
@@ -133,26 +55,47 @@ function Carousel() {
     <div className="carousel-container">
       <div className="carousel">
         {currentIndex === 0 && (
-          <div className="carousel-item">
-            <h2>{menus[randomMenuIndex]?.name}</h2>
-            <p>{menus[randomMenuIndex]?.price}</p>
+          <div className="carousel-item"
+          style={{
+              backgroundImage: `url(${bgOne})`,
+              backgroundSize: '45%',
+              backgroundPosition: '27% 1%',
+              backgroundRepeat: 'no-repeat'
+            ,
+            }}>
+            <img src={menus[randomMenuIndex]?.img}/>
+            <p>{menus[randomMenuIndex]?.name}</p>
           </div>
         )}
         {currentIndex === 1 && (
-          <div className="carousel-item">
-            <h2>{burgers[randomBurgerIndex]?.name}</h2>
-            <p>{burgers[randomBurgerIndex]?.price}</p>
+          <div className="carousel-item"
+          style={{
+              backgroundImage: `url(${bag})`,
+              backgroundSize: '45%',
+              backgroundPosition: '27% 1%',
+              backgroundRepeat: 'no-repeat'
+            ,
+            }}>
+            <img src={burgers[randomBurgerIndex]?.img}/>
+            <p>{burgers[randomBurgerIndex]?.name}</p>
           </div>
         )}
         {currentIndex === 2 && (
-          <div className="carousel-item">
-            <h2>{desserts[randomDessertIndex]?.name}</h2>
-            <p>{desserts[randomDessertIndex]?.price}</p>
+          <div className="carousel-item"
+          style={{
+              backgroundImage: `url(${bgOne})`,
+              backgroundSize: '45%',
+              backgroundPosition: '27% 1%',
+              backgroundRepeat: 'no-repeat'
+            ,
+            }}>
+            <img src={desserts[randomDessertIndex]?.img}/>
+            <p>{desserts[randomDessertIndex]?.name}</p>
           </div>
         )}
       </div>
-      <button className="prev" onClick={prevSlide}>Previous</button>
-      <button className="next" onClick={nextSlide}>Next</button>
+      <button className="prev" onClick={prevSlide}>&#10094;</button>
+      <button className="next" onClick={nextSlide}>&#10095;</button>
     </div>
   )
 }

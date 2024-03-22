@@ -7,189 +7,200 @@
       "price": 11.40,
       "id": 1,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-BIGMAC.png"
     },
     {
       "name": "Royal Deluxe Beef McMenu®",
       "price": 9.43,
       "id": 2,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-ROYAL-CHEESE.png"
     },
     {
       "name": "McChicken® McMenu®",
       "price": 11.40,
       "id": 3,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-CHICKEN.png"
     },
     {
       "name": "McCrispy McMenu®",
       "price": 14.25,
       "id": 4,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-DOUBLE-CHEESE.png"
     },
     {
       "name": "Big Mac® McMenu®",
       "price": 11.4,
       "id": 5,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-BIGMAC.png"
     },
     {
       "name": "Royal Cheese McMenu®",
       "price": 11.4,
       "id": 6,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-ROYAL-CHEESE.png"
     },
     {
       "name": "Royal-O-Fich McMenu®",
       "price": 11.4,
       "id": 7,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-FISH.png"
     },
     {
       "name": "Double Cheese McMenu®",
       "price": 6.4,
       "id": 8,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-DOUBLE-CHEESE.png"
     },
     {
       "name": "McVeggie McMenu®",
       "price": 11.4,
       "id": 9,
       "drinks": ["Coca-Cola", "Fanta", "Sprite", "Water", "Pepsi"],
-      "chips": true
+      "chips": true,
+      "img": "/img/MENU-VEGGIE.png"
     }
   ],
   "burgers": [
     {
       "name": "Big Mac®",
       "price": 6.45,
-      "id": 1,
+      "id": 10,
       "ingredients": 
-      ["2 viandes 100% boeuf", 
-      "fromage Cheddar", 
-      "oignons", 
-      "cornichons", 
-      "salade", 
-      "sauce Big Mac"],
-      "img": "/img/BigMac.png"
+      [" 2 viandes 100% boeuf, ", 
+      " fromage Cheddar, ", 
+      " oignons, ", 
+      " cornichons, ", 
+      " salade, ", 
+      " sauce Big Mac "],
+      "img": "/img/BIG-MAC.png"
     },
     {
       "name": "Maestro Peppery Paul",
       "price": 9.30,
-      "id": 2,
+      "id": 20,
       "ingredients": 
-      ["2 viandes 100% pur boeuf", 
-      "fromage Cheddar", 
-      "oignons rouges", 
-      "tranches de bacon", 
-      "salade batavia", 
-      "sauce poivre"],
-      "img": "/img/Maestro-Peppery-Paul.png"
+      [" 2 viandes 100% pur boeuf, ", 
+      " fromage Cheddar, ", 
+      " oignons rouges, ", 
+      " tranches de bacon, ", 
+      " salade batavia, ", 
+      " sauce poivre "],
+      "img": "/img/BURGER-P.png"
     },
     {
       "name": "Royal Cheese",
       "price": 6.55,
-      "id": 3,
+      "id": 30,
       "ingredients": 
-      ["1 viande 100% boeuf", 
-      "2 tranches de fromage Cheddar", 
-      "oignons", 
-      "cornichons", 
-      "sauce moutarde", 
-      "sauce ketchup"],
-      "img": "/img/RoyalCheese.png"
+      [" 1 viande 100% boeuf, ", 
+      " 2 tranches de fromage Cheddar, ", 
+      " oignons, ", 
+      " cornichons, ", 
+      " sauce moutarde, ", 
+      " sauce ketchup "],
+      "img": "/img/DOUBLE-CHEESE.png"
     },
     {
       "name": "Maestro Generous Jack",
       "price": 9.3,
-      "id": 4,
+      "id": 40,
       "ingredients": 
-      ["1 viande 100% boeuf", 
-      "fromage Maredsous", 
-      "tranches de bacon",
-      "oignons rouges", 
-      "tomates", 
-      "sauce mayo-citron"],
-      "img": "/img/Hero_GenerousJack.png"
+      [" 1 viande 100% boeuf, ", 
+      " fromage Maredsous, ", 
+      " tranches de bacon, ",
+      " oignons rouges, ", 
+      " tomates, ", 
+      " sauce mayo-citron "],
+      "img": "/img/GJ.png"
     },
     {
       "name": "Royal Crispy Bacon",
       "price": 6.5,
-      "id": 5,
+      "id": 50,
       "ingredients": 
-      ["1 viande 100% boeuf", 
-      "fromage Cheddar", 
-      "tranches de bacon",
-      "bacon craquant", 
-      "sauce bacon"],
-      "img": "/img/Crispy-Bacon.jpg"
+      [" 1 viande 100% boeuf, ", 
+      " fromage Cheddar, ", 
+      " tranches de bacon, ",
+      " bacon craquant, ", 
+      " sauce bacon "],
+      "img": "/img/BACON.png"
     },
     {
       "name": "Royal-O-Fish",
       "price": 6.5,
-      "id": 6,
+      "id": 60,
       "ingredients": 
-      ["1 viande 100% boeuf", 
-      "fromage Maredsous", 
-      "tranches de bacon",
-      "oignons rouges", 
-      "tomates", 
-      "sauce mayo-citron"],
-      "img": "/img/Royal-O-Fish.jpeg"
+      [" 1 viande 100% boeuf, ", 
+      " fromage Maredsous, ", 
+      " tranches de bacon, ",
+      " oignons rouges, ", 
+      " tomates, ", 
+      " sauce mayo-citron"],
+      "img":  "/img/FISH.png"
     },
     {
       "name": "Mc Veggie",
       "price": 6.45,
-      "id": 7,
+      "id": 70,
       "ingredients": 
-      ["Filet veggie pané", 
-      "salade Iceberg", 
-      "sauce légèrement citronnée"],
-      "img": "/img/Veggie-De-Luxe.jpeg"
+      [" Filet veggie pané, ", 
+      " salade Iceberg, ", 
+      " sauce légèrement citronnée"],
+      "img": "/img/VEGGIE.png"
     },
     {
       "name": "Double Cheese",
       "price": 6.4,
-      "id": 8,
+      "id": 80,
       "ingredients": 
-      ["2 viandes 100% boeuf", 
-      "2 tranches de Cheddar", 
-      "cornichons",
-      "oignons", 
-      "sauce moutarde", 
-      "sauce ketchup"],
-      "img": "/img/doublecheese.png"
+      [" 2 viandes 100% boeuf, ", 
+      " 2 tranches de Cheddar, ", 
+      " cornichons, ",
+      " oignons, ", 
+      " sauce moutarde, ", 
+      " sauce ketchup"],
+      "img": "/img/DOUBLE-CHEESE.png"
     },
     {
       "name": "McChicken",
       "price": 6.45,
-      "id": 9,
+      "id": 90,
       "ingredients": 
-      ["Poulet pané", 
-      "salade croquante", 
-      "sauce légèrement citronnée"
+      [" Poulet pané, ", 
+      " salade croquante, ", 
+      " sauce légèrement citronnée"
       ],
-      "img": "/img/McChicken.png"
+      "img": "/img/FISH.png"
     }
   ],
   "desserts": [
     {
       "name": "Macarons",
       "price": 4.45,
-      "id": 1,
+      "id": 100,
+      "img": "/img/MACARON.png",
       "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
     {
       "name": "Oreo Donuts",
       "price": 4.30,
-      "id": 2,
+      "id": 200,
+      "img": "/img/DONUTS.png",
       "powers": [
         "Million tonne punch",
         "Damage resistance",
@@ -199,7 +210,8 @@
     {
       "name": "Actimel",
       "price": 2.4,
-      "id": 3,
+      "id": 300,
+      "img": "/img/ACTIMEL.png",
       "powers": [
         "Million tonne punch",
         "Damage resistance",
@@ -207,19 +219,21 @@
       ]
     },
     {
-      "name": "Carottes",
-      "price": 0.75,
-      "id": 4,
-      "powers": [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name": "McFlurry",
+      "name": "McFlurry Kit-Kat",
       "price": 6.5,
-      "id": 5,
+      "id": 400,
+      "img": "/img/MC-KK.png",
+      "powers": [
+        "Million tonne punch",
+        "Damage resistance",
+        "Superhuman reflexes"
+      ]
+    },
+    {
+      "name": "McFlurry Oreo",
+      "price": 6.5,
+      "id": 500,
+      "img": "/img/MC-OREO.png",
       "powers": [
         "Million tonne punch",
         "Damage resistance",
@@ -229,7 +243,8 @@
     {
       "name": "Milkshake",
       "price": 6.5,
-      "id": 6,
+      "id": 600,
+      "img": "/img/MILKSHAKE.png",
       "powers": [
         "Million tonne punch",
         "Damage resistance",
@@ -237,9 +252,10 @@
       ]
     },
     {
-      "name": "Pommes",
+      "name": "Sundae",
       "price": 6.45,
-      "id": 7,
+      "id": 700,
+      "img": "/img/ICE.png",
       "powers": [
         "Million tonne punch",
         "Damage resistance",
@@ -247,9 +263,10 @@
       ]
     },
     {
-      "name": "Tomates Cerises",
-      "price": 6.4,
-      "id": 8,
+      "name": "McFlurry M&M's",
+      "price": 6.5,
+      "id": 800,
+      "img": "/img/MC-MMS.png",
       "powers": [
         "Million tonne punch",
         "Damage resistance",
@@ -257,9 +274,10 @@
       ]
     },
     {
-      "name": "Brownie",
-      "price": 6.45,
-      "id": 9,
+      "name": "McFlurry Daim",
+      "price": 6.5,
+      "id": 900,
+      "img": "/img/MC-DAIM.png",
       "powers": [
         "Million tonne punch",
         "Damage resistance",
