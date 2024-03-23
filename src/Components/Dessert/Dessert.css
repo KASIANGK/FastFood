@@ -20,7 +20,7 @@
     margin-top: -5%;
     background-size: 105%;
     background-repeat: no-repeat;
-    background-position: 10% 300%;
+    /* background-position: 10% 300%; */
     background-attachment: fixed;
 }
 
@@ -33,7 +33,7 @@
     height: fit-content;
     background-size: 105%;
     background-repeat: no-repeat;
-    background-position: 10% 300%;
+    /* background-position: 10% 300%; */
     background-attachment: fixed;
     padding-top: 10%;
     margin-bottom: 15%;
@@ -80,7 +80,7 @@
     padding-bottom: 5%;
     background-size: 60%;
     background-repeat: no-repeat;
-    background-position: 50% 0%;
+    /* background-position: 50% 0%; */
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -115,7 +115,7 @@
     margin-top: 15%;
     background-size: 105%;
     background-repeat: no-repeat;
-    background-position: 10% 300%;
+    /* background-position: 10% 300%; */
     background-attachment: fixed;
     color: black;
     display: flex;
