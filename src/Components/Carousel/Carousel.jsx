@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 import './Carousel.css';
 import data from '../../../data.json';
 // import bgOne from '../../../public/design/18.png'
-import bgOne from '../../../public/design/way16.png'
+import bgOne from '../../../public/design/way19.png'
 import bag from '../../../public/design/18.png'
-import TEST from '../../../public/design/storm2.png'
-import sweet from '../../../public/design/sweet1.png'
+import TEST from '../../../public/design/storm9.png'
+import sweet from '../../../public/design/sweet3.png'
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0)

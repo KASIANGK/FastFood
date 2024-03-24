@@ -1,0 +1,13 @@
+.threeimg {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.threeimg div {
+    width: 400px;
+}
+.threeimg img {
+    width: 300px;
+}

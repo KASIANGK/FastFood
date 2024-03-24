@@ -1,76 +1,3 @@
-// import Navbar from "../Navbar/Navbar";
-// import data from "../../../data.json";
-// import Carousel from "../Carousel/Carousel";
-// import { useState } from "react";
-// import Searchbar from "../Searchbar/Searchbar";
-// import BACK from '../../../public/design/bg_yellow_one.jpg'
-// import BACKY from '../../../public/design/y2.png'
-
-// function MainPage() {
-//   const [searchedWord, setSearchedWord] = useState("")
-  
-
-//   const handleSearch = (word) => {
-//     setSearchedWord(word)
-//   }
-
-//   const allProducts = [...data.reduce((acc, curr) => {
-//     return acc.concat(curr.menus, curr.burgers, curr.desserts)
-//   }, [])]
-
-//   const shuffleArray = (array) => {
-//     return array.sort(() => Math.random() - 0.5)
-//   }
-
-//   const shuffledProducts = shuffleArray(allProducts)
-
-//   const filteredProducts = shuffledProducts.filter((product) => {
-//     return product.name.toLowerCase().includes(searchedWord.toLowerCase())
-//   })
-
-//   for (const product of filteredProducts) {
-//     console.log("produt :" + product.name + "key :" + product.id);
-//   }
-
-//   return (
-//     <div className="mainpage">
-//       <Navbar />
-//       <div>
-//         <Carousel></Carousel>
-//       </div>
-//       <div className="search">
-//         <Searchbar onSearch={handleSearch}></Searchbar>
-//       </div>
-//       <div className="all-products" style={{ backgroundImage: `url(${BACKY})` }}>
-//         {filteredProducts.length > 0 ? (
-//           filteredProducts.map((product, i) => (
-//             <div key={i} className="card">
-//               <div className="card-title">
-//                 <h4>{product.name}</h4>
-//               </div>
-//               {product.img && <img src={product.img} className="card-img" />}
-//               <div className="card-txt">
-//                 <p>Price: {product.price}</p>
-//                 {product.ingredients && (
-//                   <p>Ingredients: {product.ingredients.join(", ")}</p>
-//                 )}
-//                 {product.drinks && <p>Drinks: {product.drinks.join(", ")}</p>}
-//               </div>
-//             </div>
-//           ))
-//         ) : (
-//           <p>OOPS</p>
-//         )}
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default MainPage
-
-
-
-
 import { useState } from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../../userSlice'
@@ -85,6 +12,8 @@ import BACKY from "../../../public/design/ok.jpg";
 // import BACKY from "../../../public/img/test.jpg";
 import './MainPage.css'
 import back from "../../../public/design/ours.jpg";
+import mcdologo from '../../../public/design/mcdologo.png'
+import Threeimg from "../ThreeImg/Threeimg";
 
 function MainPage() {
 
@@ -157,11 +86,11 @@ function MainPage() {
       <div>
         <Carousel></Carousel>
       </div>
-      {/* <div className="search">
-        <Searchbar onSearch={handleSearch}></Searchbar>
-      </div> */}
       <div className="bg-all-products"
       style={{ backgroundImage: `url(${BACKY})` }}>
+          <div className="mcdologo">
+            <img className="mcdologo" src={mcdologo}></img>
+          </div>
           <div className="search">
             <Searchbar onSearch={handleSearch}></Searchbar>
           </div>
