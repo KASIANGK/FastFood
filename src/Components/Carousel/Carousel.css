@@ -6,12 +6,15 @@
     /* height: 800px; */
     margin: 0 auto;
     /* overflow: hidden;  */
+    margin-top: -0.5%;
 }
 
 .carousel {
     position: relative;
     width: 100%;
     overflow: hidden; 
+    margin-bottom: 5%;
+    margin-top: 1.1%;
 }
 
 
@@ -73,6 +76,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5%;
 }
 .carousel-item img {
     padding: 0%;
@@ -94,7 +98,7 @@
 
 @media only screen and (min-width: 1440px) {
     .carousel-item {
-        height: 1050px;
+        /* height: 1050px; */
         display: flex;
         flex-direction: column;
         justify-content: center;

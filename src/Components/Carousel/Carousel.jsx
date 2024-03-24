@@ -2,9 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import './Carousel.css';
 import data from '../../../data.json';
-import bgOne from '../../../public/design/18.png'
+// import bgOne from '../../../public/design/18.png'
+import bgOne from '../../../public/design/way16.png'
 import bag from '../../../public/design/18.png'
-import third from '../../../public/design/bagmc.png'
+import TEST from '../../../public/design/storm2.png'
+import sweet from '../../../public/design/sweet1.png'
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -58,9 +60,10 @@ function Carousel() {
           <div className="carousel-item"
           style={{
               backgroundImage: `url(${bgOne})`,
-              backgroundSize: '45%',
-              backgroundPosition: '27% 1%',
-              backgroundRepeat: 'no-repeat'
+              backgroundSize: '100%',
+              backgroundPosition: 'cover',
+              backgroundRepeat: 'no-repeat',
+              backgroundAttachment: 'fixed'
             ,
             }}>
             <img src={menus[randomMenuIndex]?.img}/>
@@ -70,10 +73,11 @@ function Carousel() {
         {currentIndex === 1 && (
           <div className="carousel-item"
           style={{
-              backgroundImage: `url(${bag})`,
-              backgroundSize: '45%',
-              backgroundPosition: '27% 1%',
-              backgroundRepeat: 'no-repeat'
+              backgroundImage: `url(${TEST})`,
+              backgroundSize: '100%',
+              backgroundPosition: 'cover',
+              backgroundRepeat: 'no-repeat',
+              backgroundAttachment: 'fixed'
             ,
             }}>
             <img src={burgers[randomBurgerIndex]?.img}/>
@@ -83,10 +87,11 @@ function Carousel() {
         {currentIndex === 2 && (
           <div className="carousel-item"
           style={{
-              backgroundImage: `url(${bgOne})`,
-              backgroundSize: '45%',
-              backgroundPosition: '27% 1%',
-              backgroundRepeat: 'no-repeat'
+              backgroundImage: `url(${sweet})`,
+              backgroundSize: '100%',
+              backgroundPosition: 'cover',
+              backgroundRepeat: 'no-repeat',
+              backgroundAttachment: 'fixed'
             ,
             }}>
             <img src={desserts[randomDessertIndex]?.img}/>
