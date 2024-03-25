@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import './Carousel.css';
 import data from '../../../data.json';
-// import bgOne from '../../../public/design/18.png'
-import bgOne from '../../../public/design/way19.png'
+import bgOne from '../../../public/design/way29.png'
 import bag from '../../../public/design/18.png'
-import TEST from '../../../public/design/storm9.png'
-import sweet from '../../../public/design/sweet3.png'
+import TEST from '../../../public/design/storm11.png'
+import sweet from '../../../public/design/way20city.png'
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0)

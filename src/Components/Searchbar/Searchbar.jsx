@@ -9,7 +9,7 @@ function Searchbar({ onSearch }) {
     <input
       className="inp"
       type="text"
-      placeholder="search... 🔎"
+      placeholder="search..."
       onChange={handleSearchChange}
     />
   )

@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../basketSlice" 
-import BLACKY from '../../../public/design/b.jpg'
+import BACKY from '../../../public/design/bmcsmall2.jpg'
+import BLACKY from '../../../public/design/bmcblack2.jpg'
+import desserts from '../../../public/design/desserts.png'
+
+
 import './Desserts.css'
 
 function Desserts() {
@@ -21,11 +25,12 @@ function Desserts() {
             <Navbar />
             <div className="burger-all"
             style={{ backgroundImage: `url(${BLACKY})` }}>
-                <h2>OUR SELECTION</h2>
+                <img src={desserts}></img>
                 {data.map((element, i) => (
                     <div key={i} className="burgers-content">
                         {element.desserts.map((dessert, d) => (
-                            <div key={d} className="burgers-contenu">
+                            <div key={d} className="burgers-contenu"
+                            style={{ backgroundImage: `url(${BACKY})` }}>
                                 <img src={dessert.img} alt={dessert.name} />
                                 <p>{dessert.name}</p>
                                 {loggedInUser === true ?

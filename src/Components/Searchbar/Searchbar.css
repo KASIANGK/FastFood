@@ -1,13 +1,15 @@
 ::placeholder {
     font-style: italic;
+    font-weight: 700;
     font-size: 1.2em;
-    color: rgb(150, 150, 150);
+    color: rgb(255, 182, 0);
     background: rgb(0, 0, 0);
     padding: 5px;
+    border: 2px solid black;
   }
   
   .inp {
     height: 30px;
-    border: 1px grey solid;
+    border: 1px rgb(0, 0, 0) solid;
     border-radius: 10px;
   }

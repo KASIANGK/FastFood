@@ -82,7 +82,7 @@
     padding: 0%;
     /* padding-left: 15%; */
     width: 400px;
-    /* padding-top: 7%; */
+    padding-top: 4%;
     
 }
 .carousel-item h2 {
@@ -90,6 +90,10 @@
     font-weight: 700;
     font-style: normal;
     font-size: 2em;
+}
+.carousel-item p {
+    margin: 0;
+    font-weight: 700;
 }
 
 .bg-products {

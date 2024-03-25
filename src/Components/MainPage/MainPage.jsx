@@ -7,9 +7,7 @@ import Carousel from "../Carousel/Carousel";
 import Searchbar from "../Searchbar/Searchbar";
 import data from "../../../data.json";
 import BACK from "../../../public/design/bg_yellow_one.jpg";
-// import BACKY from "../../../public/design/yellow-back.jpg";
 import BACKY from "../../../public/design/ok.jpg";
-// import BACKY from "../../../public/img/test.jpg";
 import './MainPage.css'
 import back from "../../../public/design/ours.jpg";
 import mcdologo from '../../../public/design/mcdologo.png'

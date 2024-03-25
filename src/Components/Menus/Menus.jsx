@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../basketSlice" 
-import BLACKY from '../../../public/design/b.jpg'
-import './Menus.css'
+import BACKY from '../../../public/design/bmcsmall2.jpg'
+import BLACKY from '../../../public/design/bmcblack2.jpg'
+import menus from '../../../public/design/menuusw.png'
 
 function Menus() {
 
