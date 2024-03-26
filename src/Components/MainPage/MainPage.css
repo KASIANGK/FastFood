@@ -89,3 +89,30 @@
     align-items: center;
     gap: 5%;
 }
+
+
+section h1 {
+    color: black;
+    padding: 10px;
+    background-color: white;
+    display: inline-block;
+}
+.videoapple video {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+.video {
+    height: 300px;
+}
+.conteneur {
+    position: relative;
+    z-index: 1;
+}
+
+.contenu {
+    position: sticky;
+    top: 30%;
+}
+

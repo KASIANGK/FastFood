@@ -5,7 +5,7 @@ import data from '../../../data.json';
 import bgOne from '../../../public/design/way29.png'
 import bag from '../../../public/design/18.png'
 import TEST from '../../../public/design/storm11.png'
-import sweet from '../../../public/design/way20city.png'
+import sweet from '../../../public/design/city3.jpg'
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -62,7 +62,8 @@ function Carousel() {
               backgroundSize: '100%',
               backgroundPosition: 'cover',
               backgroundRepeat: 'no-repeat',
-              backgroundAttachment: 'fixed'
+              backgroundAttachment: 'fixed',
+              color: 'black'
             ,
             }}>
             <img src={menus[randomMenuIndex]?.img}/>
@@ -76,7 +77,8 @@ function Carousel() {
               backgroundSize: '100%',
               backgroundPosition: 'cover',
               backgroundRepeat: 'no-repeat',
-              backgroundAttachment: 'fixed'
+              backgroundAttachment: 'fixed',
+              color: 'black'
             ,
             }}>
             <img src={burgers[randomBurgerIndex]?.img}/>

@@ -6,7 +6,7 @@
     /* height: 800px; */
     margin: 0 auto;
     /* overflow: hidden;  */
-    margin-top: -0.5%;
+    margin-top: -1.2%;
 }
 
 .carousel {
@@ -93,6 +93,7 @@
 }
 .carousel-item p {
     margin: 0;
+    /* color: black; */
     font-weight: 700;
 }
 

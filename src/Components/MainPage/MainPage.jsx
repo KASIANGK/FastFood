@@ -12,6 +12,8 @@ import './MainPage.css'
 import back from "../../../public/design/ours.jpg";
 import mcdologo from '../../../public/design/mcdologo.png'
 import Threeimg from "../ThreeImg/Threeimg";
+import Video from '../../../public/design/animation.mp4'
+import { useRef } from "react";
 
 function MainPage() {
 
@@ -20,6 +22,29 @@ function MainPage() {
   const pageSize = 6
   const dispatch = useDispatch();
   const loggedIn = useSelector((state) => state.user.loggedInUser)
+
+  const videoRef = useRef(null)
+  const videoElement = videoRef.current
+  const position = 0
+  const vitesse = 1200
+  videoRef.preload = 'true'
+
+
+  window.requestAnimationFrame(avanceVideo)
+  
+  // function avanceVideo() {
+  //   position = window.pageYOffset / vitesse
+  //   console.log('show position' + position);
+  // }
+  function avanceVideo() {
+    const calculatedPosition = window.pageYOffset / vitesse;
+    console.log('show position' + calculatedPosition);
+    if (videoRef.readyState >= 3) {
+      videoRef.currentTime = position;
+    } 
+    window.requestAnimationFrame(avanceVideo)
+  }
+  
 
 
   // affichage tous les produits data : 
@@ -129,6 +154,29 @@ function MainPage() {
             </div>
           )}
       </div>
+      <section className="conteneur">
+        <div className="contenu">
+          <h1>Boom</h1>
+        </div>
+      </section>
+      <section className="conteneur">
+        <div className="contenu">
+          <h1>Feu</h1>
+        </div>
+      </section>
+      <section className="conteneur">
+        <div className="contenu">
+          <h1>Fumee</h1>
+          {/* <video ref={videoRef} autoPlay loop muted className="videoapple">
+            <source src={Video} type="video/mp4" />
+          </video> */}
+        </div>
+      </section>
+
+      <video ref={videoRef} className="videoapple">
+        <source src={Video} type="video/mp4" />
+      </video>
+
     </div>
   )
 }
