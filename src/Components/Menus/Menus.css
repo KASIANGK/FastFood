@@ -2,3 +2,19 @@
     width: 100%;
     
 }
+
+#img-menus {
+    width: 200px;
+}
+.burgerss-contenu {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-attachment: fixed;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    width: 250px;
+    color: rgb(255, 182, 0);
+
+}

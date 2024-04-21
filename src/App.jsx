@@ -11,6 +11,7 @@ import Menu from './Components/Menu/Menu'
 import Desserts from './Components/Desserts/Desserts'
 import Dessert from './Components/Dessert/Dessert'
 import Login from './Components/LogIn/LogIn'
+import Ctc from './Components/Ctc/Ctc'
 
 
 const routeur = createBrowserRouter([
@@ -45,6 +46,10 @@ const routeur = createBrowserRouter([
   {
     path: '/login',
     element: <Login></Login>
+  },
+  {
+    path: '/ctc',
+    element: <Ctc></Ctc>
   }
 ])
 

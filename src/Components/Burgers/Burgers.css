@@ -6,15 +6,10 @@
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    gap: 2%;
-    /* gap: 3%; */
+    gap: 5%;
     justify-content: center;
     align-items: center;
     padding-top: 5%;
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0%;
-    background-attachment: fixed; */
 }
 .burgers-content div {
     margin-bottom: 5%;
@@ -25,15 +20,14 @@
     background-position: 0%;
     background-attachment: fixed;
     padding: 20px;
-    /* padding-left: 30px;
-    padding-right: 30px; */
     border-radius: 15px;
     width: 250px;
 
 }
-.burgers-contenu img {
+#img-burgers {
     width: 200px;
 }
+
 .burgers-contenu p {
     font-weight: 700;
     color: black;

@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../basketSlice" 
-import BACKY from '../../../public/design/bmcsmall2.jpg'
-import BLACKY from '../../../public/design/bmcblack2.jpg'
+import BLACKY from '../../../public/design/bmcsmall2.jpg'
+import BACKY from '../../../public/design/bmcblack2.jpg'
 import desserts from '../../../public/design/desserts.png'
 
 
@@ -21,16 +21,18 @@ function Desserts() {
     }
 
     return (
-        <div className="burgers">
+        <div className="desserts">
             <Navbar />
-            <div className="burger-all"
-            style={{ backgroundImage: `url(${BLACKY})` }}>
+            <div className="desserts-all"
+            style={{ backgroundImage: `url(${BLACKY})`,
+            backgroundSize: 'cover' }}>
                 <img src={desserts}></img>
                 {data.map((element, i) => (
-                    <div key={i} className="burgers-content">
+                    <div key={i} className="desserts-content">
                         {element.desserts.map((dessert, d) => (
-                            <div key={d} className="burgers-contenu"
-                            style={{ backgroundImage: `url(${BACKY})` }}>
+                            <div key={d} className="desserts-contenu"
+                            style={{ backgroundImage: `url(${BACKY})`,
+                            backgroundSize: 'cover' }}>
                                 <img src={dessert.img} alt={dessert.name} />
                                 <p>{dessert.name}</p>
                                 {loggedInUser === true ?

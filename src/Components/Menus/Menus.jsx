@@ -7,6 +7,7 @@ import { addToCart } from "../../basketSlice"
 import BACKY from '../../../public/design/bmcsmall2.jpg'
 import BLACKY from '../../../public/design/bmcblack2.jpg'
 import menus from '../../../public/design/menuusw.png'
+import './Menus.css'
 
 function Menus() {
 
@@ -26,8 +27,8 @@ function Menus() {
                 {data.map((element, i) => (
                     <div key={i} className="burgers-content">
                         {element.menus.map((menu, m) => (
-                            <div key={m} className="burgers-contenu">
-                                <img src={menu.img} alt={menu.name} />
+                            <div key={m} className="burgerss-contenu">
+                                <img id="img-menus" src={menu.img} alt={menu.name} />
                                 <p>{menu.name}</p>
                                 {loggedInUser === true ?
                                     <p>{menu.price}</p>

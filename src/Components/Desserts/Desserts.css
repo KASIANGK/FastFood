@@ -1,37 +1,67 @@
-.burgers {
+.desserts {
     width: 100%;
+    height: fit-content;
 }
-.burgers-content {
+.desserts-content {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 2%;
+    /* gap: 3%; */
     justify-content: center;
     align-items: center;
     padding-top: 5%;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-attachment: fixed; */
 }
-/* .burgers-content div {
-    width: 200px;
+.desserts-content div {
     margin-bottom: 5%;
-} */
-.burgers-contenu img {
+}
+.desserts-contenu {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-attachment: fixed;
+    padding: 20px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    border-radius: 15px;
+    width: 250px;
+
+}
+.desserts-contenu img {
     width: 200px;
 }
-.burgers-contenu p {
+.desserts-contenu p {
     font-weight: 700;
+    color: rgb(255, 182, 0);
+    margin-top: -2%;
+    margin-bottom: 7%;
 }
-.burger-all {
+.desserts-contenu button {
+    margin-bottom: 5%;
+}
+.desserts-all {
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-    /* background-position: 10% 300%; */
+    background-position: 0%;
     background-attachment: fixed;
+    padding: 20px;
+    padding-left: 0;
+    padding-bottom: 20px;
 }
-.burger-all h2 {
+.desserts-all img {
+    width: 200px;
+    padding-top: 50px;
+}
+.desserts-all h2 {
     color: black;
 }

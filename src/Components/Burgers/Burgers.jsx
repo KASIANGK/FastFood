@@ -24,14 +24,16 @@ function Burgers() {
         <div className="burgers">
             <Navbar />
             <div className="burger-all"
-            style={{ backgroundImage: `url(${BLACKY})` }}>
+            style={{ backgroundImage: `url(${BLACKY})`,
+            backgroundSize: 'cover' }}>
                 <img src={burgers}></img>
                 {data.map((element, i) => (
                     <div key={i} className="burgers-content">
                         {element.burgers.map((burger, b) => (
                             <div key={b} className="burgers-contenu"
-                            style={{ backgroundImage: `url(${BACKY})` }}>
-                                <img src={burger.img} alt={burger.name} />
+                            style={{ backgroundImage: `url(${BACKY})`,
+                            backgroundSize: 'cover' }}>
+                                <img id="img-burgers" src={burger.img} alt={burger.name} />
                                 <p>{burger.name}</p>
                                 {loggedInUser === true ?
                                     <p>{burger.price}</p>

@@ -58,14 +58,12 @@ function Carousel() {
         {currentIndex === 0 && (
           <div className="carousel-item"
           style={{
-              backgroundImage: `url(${bgOne})`,
-              backgroundSize: '100%',
-              backgroundPosition: 'cover',
-              backgroundRepeat: 'no-repeat',
-              backgroundAttachment: 'fixed',
-              color: 'black'
-            ,
-            }}>
+            backgroundImage: `url(${bgOne})`,
+            backgroundSize: '100%',
+            backgroundRepeat: 'no-repeat',
+            backgroundAttachment: 'fixed',
+            // marginTop: '15px',
+          }}>
             <img src={menus[randomMenuIndex]?.img}/>
             <p>{menus[randomMenuIndex]?.name}</p>
           </div>
@@ -77,9 +75,9 @@ function Carousel() {
               backgroundSize: '100%',
               backgroundPosition: 'cover',
               backgroundRepeat: 'no-repeat',
+              color: 'black',
               backgroundAttachment: 'fixed',
-              color: 'black'
-            ,
+              height: '740px',
             }}>
             <img src={burgers[randomBurgerIndex]?.img}/>
             <p>{burgers[randomBurgerIndex]?.name}</p>
@@ -90,13 +88,12 @@ function Carousel() {
           style={{
               backgroundImage: `url(${sweet})`,
               backgroundSize: '100%',
-              backgroundPosition: 'cover',
+              backgroundPosition: '20 0%',
               backgroundRepeat: 'no-repeat',
-              backgroundAttachment: 'fixed'
-            ,
+              backgroundAttachment: 'fixed',
             }}>
             <img src={desserts[randomDessertIndex]?.img}/>
-            <p>{desserts[randomDessertIndex]?.name}</p>
+            <p id='carousel-dessert-p'>{desserts[randomDessertIndex]?.name}</p>
           </div>
         )}
       </div>

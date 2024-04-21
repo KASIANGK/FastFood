@@ -12,7 +12,7 @@ import './MainPage.css'
 import back from "../../../public/design/ours.jpg";
 import mcdologo from '../../../public/design/mcdologo.png'
 import Threeimg from "../ThreeImg/Threeimg";
-import Video from '../../../public/design/animation.mp4'
+// import videoRef from '../../../public/design/mcdovideo-2.mp4'
 import { useRef } from "react";
 
 function MainPage() {
@@ -153,31 +153,15 @@ function MainPage() {
               </button>
             </div>
           )}
+        </div>
+
+        {/* <div className='videoComponent'>
+              <video ref={videoRef} className="videoGun" >
+                  <source src='../../../public/design/mcdovideo-2.mp4' type="video/mp4" />
+              </video>
+        </div> */}
       </div>
-      <section className="conteneur">
-        <div className="contenu">
-          <h1>Boom</h1>
-        </div>
-      </section>
-      <section className="conteneur">
-        <div className="contenu">
-          <h1>Feu</h1>
-        </div>
-      </section>
-      <section className="conteneur">
-        <div className="contenu">
-          <h1>Fumee</h1>
-          {/* <video ref={videoRef} autoPlay loop muted className="videoapple">
-            <source src={Video} type="video/mp4" />
-          </video> */}
-        </div>
-      </section>
-
-      <video ref={videoRef} className="videoapple">
-        <source src={Video} type="video/mp4" />
-      </video>
-
-    </div>
+    
   )
 }
 

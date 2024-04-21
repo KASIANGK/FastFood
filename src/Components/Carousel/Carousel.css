@@ -76,13 +76,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 .carousel-item img {
     padding: 0%;
     /* padding-left: 15%; */
     width: 400px;
-    padding-top: 4%;
+    /* padding-top: 4%; */
     
 }
 .carousel-item h2 {
@@ -93,10 +93,12 @@
 }
 .carousel-item p {
     margin: 0;
-    /* color: black; */
+    color: black;
     font-weight: 700;
 }
-
+#carousel-dessert-p {
+    color: white;
+}
 .bg-products {
     width: 100%;
 }
@@ -120,7 +122,7 @@
     }
     .carousel-item img {
         width: 200px;
-        padding-top: 10%;
+        /* padding-top: 10%; */
       }
   }
   

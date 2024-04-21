@@ -54,6 +54,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 .yellow-div {
     width: 100%;
@@ -97,22 +98,7 @@ section h1 {
     background-color: white;
     display: inline-block;
 }
-.videoapple video {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-}
-.video {
-    height: 300px;
-}
-.conteneur {
-    position: relative;
-    z-index: 1;
-}
 
-.contenu {
-    position: sticky;
-    top: 30%;
-}
+
+
 

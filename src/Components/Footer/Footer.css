@@ -1,0 +1,8 @@
+.footer {
+    width: 100%;
+    background-color: black;
+}
+.footer p {
+    color: rgb(255, 255, 255);
+    z-index: 5;
+}

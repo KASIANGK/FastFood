@@ -5,7 +5,8 @@ import Basket from "../Basket/Basket";
 import { logoutUser } from "../../userSlice";
 import { useEffect } from "react";
 // import logo from '../../../public/design/logo.png'
-import logo from '../../../public/design/mcdovideo.mp4'
+// import logo from '../../../public/design/mcdovideo.mp4'
+import Ctc from "../Ctc/Ctc";
 
 function Navbar() {
   const location = useLocation();
@@ -25,9 +26,9 @@ function Navbar() {
       <div className="navbar">
         <div className="logo-container">
           {/* <img src={logo} className="logo"/> */}
-          <video autoPlay loop muted className="logo">
+          {/* <video autoPlay loop muted className="logo">
             <source src={logo} type="video/mp4" />
-          </video>
+          </video> */}
         </div>
         <div className="navbar-content">
           <ul className="nav-links">
@@ -42,6 +43,9 @@ function Navbar() {
             </li>
             <li className={location.pathname === '/desserts' ? 'active' : ''}>
               <Link to="/desserts">DESSERTS</Link>
+            </li>
+            <li className={location.pathname === '/ctc' ? 'active' : ''}>
+              <Link to="/ctc">CONTACT</Link>
             </li>
             <li className={location.pathname === '/login' ? 'active' : ''}>
               {loggedInUser ? (
